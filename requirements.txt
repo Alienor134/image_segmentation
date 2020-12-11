@@ -1,7 +1,7 @@
 numpy
 ipywidgets
 nbinteract
--e git+git@github.com:Alienor134/alienlab.git@c6567fd01cd5f7240a1f2e5a4fad667f97c01820#egg=alienlab
+git+git://github.com/Alienor134/alienlab
 skimage
 imageio
 time
