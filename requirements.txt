@@ -3,8 +3,7 @@ nbinteract
 git+git://github.com/Alienor134/alienlab
 scikit-image
 imageio
-time
 numpy
 matplotlib
-tkinter
+
 
