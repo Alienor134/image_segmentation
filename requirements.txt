@@ -1,8 +1,7 @@
-numpy
 ipywidgets
 nbinteract
 git+git://github.com/Alienor134/alienlab
-skimage
+scikit-image
 imageio
 time
 numpy
