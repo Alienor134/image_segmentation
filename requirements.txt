@@ -1,0 +1,11 @@
+numpy
+ipywidgets
+nbinteract
+-e git://github.com/Alienor134/alienlab/tree/v0
+skimage
+imageio
+time
+numpy
+matplotlib
+tkinter
+
