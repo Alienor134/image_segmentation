@@ -5,6 +5,6 @@ scikit-image
 imageio
 numpy
 matplotlib
-jupyter_contrib_nbextensions
+jupyter_contribbextensions
 
 
