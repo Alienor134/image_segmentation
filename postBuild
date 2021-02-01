@@ -1,4 +1,3 @@
-set -ex
-jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-threejs
-mkdir -p $HOME/.jupyter/lab/user-settings/@jupyterlab/extensionmanager-extension
-echo '{"disclaimed": true}' >> $HOME/.jupyter/lab/user-settings/@jupyterlab/extensionmanager-extension/plugin.jupyterlab-settings
+jupyter contrib nbextension install --user
+jupyter nbextension enable --py widgetsnbextension
+jupyter labextension install @jupyter-widgets/jupyterlab-manager --minimize=False
