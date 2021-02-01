@@ -9,7 +9,7 @@ Example:
 # Flexibility
 
 The jupyter notebook provided allows to upload your own video and test the segmentation. The interface is interactive and allows you to test the various parameters to obtain the best segmentation.  
-Once you have found the optimal parameters for your segmentation you can collect the *segment_image* function and inculde it in your image  analysis process.
+Once you have found the optimal parameters for your segmentation you can collect the *segment_image* function and inculde it in your image analysis process.
 
 Interactive parameters: 
 
@@ -17,19 +17,24 @@ Interactive parameters:
 
 To have a detailed explanation of the code, TODO(link to SI of the paper).
 
-You can also do intuitive trials. Here is how each parameter affects the intermediary steps of the code which are displayed as images: 
+You can also do intuitive trials. Here is how each parameter affects the intermediary steps of the code which are displayed as images:   
 
-Contrast mask: 
+Contrast mask:   
 ![contrast](images/contrast.png)
+  
 
-Autolevel mask: 
+Autolevel mask:   
 ![autolevel](images/autolevel.png)
+  
 
-Maximum positions (center of the isolated objects)
+Maximum positions (center of the isolated objects):  
 ![maximum](images/dist_max.png)
+  
 
-Segmentation mask and contours
+Segmentation mask and contours:  
+
 ![segmentation](images/watershed.png)
+  
 
 The range of the parameters can be changed to better suit your needs !
 Simply modify the number in parenthesis in the line: 
