@@ -6,6 +6,8 @@ This code's expected output is an image with an area of interest for each object
 Example: 
 ![image](images/contours.png)
 
+Open this in a new tab: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Alienor134/image_segmentation/main?urlpath=lab)  
+ The code will load while you read this page.
 # Flexibility
 
 The jupyter notebook provided allows to upload your own video and test the segmentation. The interface is interactive and allows you to test the various parameters to obtain the best segmentation.  
