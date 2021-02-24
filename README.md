@@ -1,3 +1,16 @@
+# Preamble
+
+This repository contains the code used to analyse the data acquired during the development of project LIGHTNING (TODO: link).  
+In this repo you also have the opportunity to test the segmentation code on your own fluorescence images/movies, either online or on your computer by cloning the repo (see below).
+
+As for the code applied to LIGHTNING data (folder: codes_lightning): 
+- **segmentation_and_fits_update.py** performs the segmentation of the high quality image, the registration with the binned images, extracts the pixel-wise time response of fluorescence and fits the values of tau for each curve (*Supplementary Information §1.8.1-3* )
+- **analyse_results_amplitude.py** applies the threshold criteria to the pixel-wise distribution of tau for each bacteria to keep or remove the bacteria from the global results (See *Supplementary Information §1.8.3* )
+- **image_RGB_tau.py** performs the whole aalysis on a single experiment. It encodes the log values of tau I under low illumination, and tau I and II under high illumination in blue, green and red respictively, creating a false color image.
+- **multiple_RGB_proteins.py** applies the previous code to one experiment of each protein type, allowing to build the *Figure 4c* of the main text. One experiment was randomly chosen for each protein type. 
+
+If you wish to test the segmentation, follow the instructions below.
+
 # Introduction
 
 This code's input is a TIF movie of fluorescence objects. 
@@ -65,3 +78,6 @@ in the command line cd to a directory where you want to save the code and write:
   TODO: docker with repo2docker
 
 
+# License
+
+Alienor134/image_segmentation is licensed under the GNU General Public License v3.0
