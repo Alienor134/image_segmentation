@@ -6,5 +6,5 @@ imageio
 numpy
 matplotlib
 jupyter_contrib_nbextensions
-
+tqdm
 
