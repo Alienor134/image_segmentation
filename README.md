@@ -6,9 +6,8 @@ In this repo you also have the opportunity to test the segmentation code on your
 As for the code applied to LIGHTNING data (folder: codes_lightning): 
 - **segmentation_and_fits_update.py** performs the segmentation of the high quality image, the registration with the binned images, extracts the pixel-wise time response of fluorescence and fits the values of tau for each curve (*Supplementary Information §1.8.1-3* )
 - **analyse_results_amplitude.py** applies the threshold criteria to the pixel-wise distribution of tau for each bacteria to keep or remove the bacteria from the global results (See *Supplementary Information §1.8.3* )
-- **image_RGB_tau.py** performs the whole aalysis on a single experiment. It encodes the log values of tau I under low illumination, and tau I and II under high illumination in blue, green and red respictively, creating a false color image.
-- **multiple_RGB_proteins.py** applies the previous code to one experiment of each protein type, allowing to build the *Figure 4c* of the main text. One experiment was randomly chosen for each protein type. 
-
+- **proba_attribution_fig4c.py** attributes label to bacteria based on covariance matrices. 
+  
 If you wish to test the segmentation, follow the instructions below.
 
 # Introduction
