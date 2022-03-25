@@ -1,6 +1,6 @@
 ipywidgets
 nbinteract
-git+git://github.com/Alienor134/alienlab
+git+https://github.com/Alienor134/alienlab
 scikit-image
 imageio
 numpy
