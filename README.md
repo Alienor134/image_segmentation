@@ -1,6 +1,6 @@
 # Preamble
 
-This repository contains the code used to analyse the data acquired during the development of project LIGHTNING (TODO: link).  
+This repository contains the code used to analyse the data acquired during the development of project LIGHTNING (https://www.nature.com/articles/s41467-022-29172-0).  
 In this repo you also have the opportunity to test the segmentation code on your own fluorescence images/movies, either online or on your computer by cloning the repo (see below).
 
 As for the code applied to LIGHTNING data (folder: codes_lightning): 
