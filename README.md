@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/320586928.svg)](https://zenodo.org/badge/latestdoi/320586928)
+
+
 # Preamble
 
 This repository contains the code used to analyse the data acquired during the development of project LIGHTNING (https://www.nature.com/articles/s41467-022-29172-0).  
